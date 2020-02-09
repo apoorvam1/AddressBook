@@ -10,6 +10,11 @@ This project creates REST API using Spring Boot to perform below operations:
 - View list of contact names
 
 
-Build management is done via Maven. 
-
 Uses protobuf to generate POJOs for the addressbook.
+
+*Build management - Maven*
+
+Run `mvn compile` to comile the code base. 
+
+The compiled classes will be generated at the `target` folder. You can also see that the compiled classes for proto files will be generated at `target/generated-sources/protobuf/java/com/project/addressbook/proto`
+
